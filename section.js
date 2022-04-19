@@ -462,7 +462,7 @@ const correctOrFalseAndUpdate = (e) =>{//この'e'はイベント関数という
     if('分かった' === e.target.textContent){
         var result = window.confirm('答えは「'+ question[quiz_count] + '」です。\n思っていたのと同じ意味なら「oK」を\n違っていたら「キャンセル」を押してください');
         if(result==false){//キャンセルを押した際の処理
-            window.alert('残念');
+            window.alert('disappointing');
             ox[quiz_count]='2';//不正解の意味
         }
         else{
