@@ -1,0 +1,47 @@
+.button-size{
+    width: 300px;
+    height: 300px;
+    font-size: 40px;
+}
+.button-sizes{
+    width: 5500px;
+    height: 50px;
+    font-size: 20px;
+}
+.not_know{
+    margin-left: 485px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    background-color: blue;
+    color: white;
+    font-family: monospace;
+}
+.stop{
+    margin-left: 20px;
+    font-size: 25px;
+    background-color:red;
+    color: white;
+    font-family: monospace;
+}
+
+.button-sizes{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.pad{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+
+.pc-dsp { display:block; }
+.sp-dsp { display:none; }
+@media only screen and (max-width : 736px)
+{
+    .pc-dsp { display:none; }
+    .sp-dsp { display:block; }
+}
