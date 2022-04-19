@@ -33,293 +33,293 @@ let z=0;
 //URLによって出題する内容を変える処理
 let i;
 if(/*location.href=="file:///Users/tatsuyatsuji/Downloads/%E4%BD%9C%E6%A5%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/WEB/English/section_19.html"||
-*/location.href=="https://todorokitai.github.io/web/English/section1-1.html"){
+*/location.href=="https://todorokitai.github.io/web/section1-1.html"){
     quiz_count = 0;
     let a = quiz_count;
     i=1;
     //const quiz_length = 50;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section1-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section1-2.html"){
     quiz_count = 50;
     let a = quiz_count;
     //const quiz_length = 50*2;
     i=2;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_1.html"){
     quiz_count = 0;
     let a = quiz_count;
     //const quiz_length = 50*2;
     i=2;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section2-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section2-1.html"){
     quiz_count = 0+50*2;
     let a = quiz_count;
     //const quiz_length = 50*3;
     i=3;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section2-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section2-2.html"){
     quiz_count = 0+50*3;
     let a = quiz_count;
     //const quiz_length 50*4;
     i=4;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_2.html"){
     quiz_count = 0+50*2;
     let a = quiz_count;
     //const quiz_length 50*4;
     i=4;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section3-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section3-1.html"){
     quiz_count = 0+50*4;
     let a = quiz_count;
     //const quiz_length 50*5;
     i=5;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section3-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section3-2.html"){
     quiz_count = 0+50*5;
     let a = quiz_count;
     //const quiz_length 50*6;
     i=6;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_3.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_3.html"){
     quiz_count = 0+50*4;
     let a = quiz_count;
     //const quiz_length 50*6;
     i=6;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section4-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section4-1.html"){
     quiz_count = 0+50*6;
     let a = quiz_count;
     //const quiz_length 50*7;
     i=7;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section4-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section4-2.html"){
     quiz_count = 0+50*7;
     let a = quiz_count;
     //const quiz_length 50*8;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_4.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_4.html"){
     quiz_count = 0+50*6;
     let a = quiz_count;
     //const quiz_length 50*8;
     i=8;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section5-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section5-1.html"){
     quiz_count = 0+50*8;
     let a = quiz_count;
     //const quiz_length 50*9;
     i=9;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section5-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section5-2.html"){
     quiz_count = 0+50*9;
     let a = quiz_count;
     //const quiz_length 50*10;
     i=10;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_5.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_5.html"){
     quiz_count = 0+50*8;
     let a = quiz_count;
     //const quiz_length 50*10;
     i=10;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section6-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section6-1.html"){
     quiz_count = 0+50*10;
     let a = quiz_count;
     //const quiz_length 50*11;
     i=11;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section6-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section6-2.html"){
     quiz_count = 0+50*11;
     let a = quiz_count;
     //const quiz_length 50*12;
     i=12;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_6.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_6.html"){
     quiz_count = 0+50*10;
     let a = quiz_count;
     //const quiz_length 50*12;
     i=12;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section7-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section7-1.html"){
     quiz_count = 0+50*12;
     let a = quiz_count;
     //const quiz_length 50*13;
     i=13;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section7-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section7-2.html"){
     quiz_count = 0+50*13;
     let a = quiz_count;
     //const quiz_length 50*14;
     i=14;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_7.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_7.html"){
     quiz_count = 0+50*12;
     let a = quiz_count;
     //const quiz_length 50*14;
     i=14;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section8-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section8-1.html"){
     quiz_count = 0+50*14;
     let a = quiz_count;
     //const quiz_length 50*15;
     i=15;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section8-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section8-2.html"){
     quiz_count = 0+50*15;
     let a = quiz_count;
     //const quiz_length 50*16;
     i=16;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_8.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_8.html"){
     quiz_count = 0+50*14;
     let a = quiz_count;
     //const quiz_length 50*16;
     i=16;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section9-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section9-1.html"){
     quiz_count = 0+50*16;
     let a = quiz_count;
     //const quiz_length 50*17;
     i=17;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section9-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section9-2.html"){
     quiz_count = 0+50*17;
     let a = quiz_count;
     //const quiz_length 50*18;
     i=18;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_9.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_9.html"){
     quiz_count = 0+50*16;
     let a = quiz_count;
     //const quiz_length 50*18;
     i=18;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section10-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section10-1.html"){
     quiz_count = 0+50*18;
     let a = quiz_count;
     //const quiz_length 50*19;
     i=19;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section10-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section10-2.html"){
     quiz_count = 0+50*19;
     let a = quiz_count;
     //const quiz_length 50*20;
     i=20;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_10.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_10.html"){
     quiz_count = 0+50*18;
     let a = quiz_count;
     //const quiz_length 50*20;
     i=20;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section11-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section11-1.html"){
     quiz_count = 0+50*20;
     let a = quiz_count;
     //const quiz_length 50*21;
     i=21;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section11-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section11-2.html"){
     quiz_count = 0+50*21;
     let a = quiz_count;
     //const quiz_length 50*22;
     i=22;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_11.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_11.html"){
     quiz_count = 0+50*20;
     let a = quiz_count;
     //const quiz_length 50*22;
     i=22;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section12-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section12-1.html"){
     quiz_count = 0+50*22;
     let a = quiz_count;
     //const quiz_length 50*23;
     i=23;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section12-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section12-2.html"){
     quiz_count = 0+50*23;
     let a = quiz_count;
     //const quiz_length 50*24;
     i=24;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_12.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_12.html"){
     quiz_count = 0+50*22;
     let a = quiz_count;
     //const quiz_length 50*24;
     i=24;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section13-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section13-1.html"){
     quiz_count = 0+50*24;
     let a = quiz_count;
     //const quiz_length 50*25;
     i=25;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section13-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section13-2.html"){
     quiz_count = 0+50*25;
     let a = quiz_count;
     //const quiz_length 50*26;
     i=26;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_13.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_13.html"){
     quiz_count = 0+50*24;
     let a = quiz_count;
     //const quiz_length 50*26;
     i=26;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section14-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section14-1.html"){
     quiz_count = 0+50*26;
     let a = quiz_count;
     //const quiz_length 50*27;
     i=27;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section14-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section14-2.html"){
     quiz_count = 0+50*27;
     let a = quiz_count;
     //const quiz_length 50*28;
     i=28;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_14.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_14.html"){
     quiz_count = 0+50*26;
     let a = quiz_count;
     //const quiz_length 50*28;
@@ -327,105 +327,105 @@ else if(location.href=="https://todorokitai.github.io/web/English/section_14.htm
     z = a;
 }
 //
-else if(location.href=="https://todorokitai.github.io/web/English/section15-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section15-1.html"){
     quiz_count = 0+50*28;
     let a = quiz_count;
     //const quiz_length 50*29;
     i=29;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section15-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section15-2.html"){
     quiz_count = 0+50*29;
     let a = quiz_count;
     //const quiz_length 50*30;
     i=29;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_15.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_15.html"){
     quiz_count = 0+50*28;
     let a = quiz_count;
     //const quiz_length 50*30;
     i=30;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section16-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section16-1.html"){
     quiz_count = 0+50*30;
     let a = quiz_count;
     //const quiz_length 50*31;
     i=31;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section16-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section16-2.html"){
     quiz_count = 0+50*31;
     let a = quiz_count;
     //const quiz_length 50*32;
     i=32;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_16.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_16.html"){
     quiz_count = 0+50*30;
     let a = quiz_count;
     //const quiz_length 50*32;
     i=32;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section17-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section17-1.html"){
     quiz_count = 0+50*32;
     let a = quiz_count;
     //const quiz_length 50*33;
     i=33;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section17-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section17-2.html"){
     quiz_count = 0+50*33;
     let a = quiz_count;
     //const quiz_length 50*34;
     i=34;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_17.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_17.html"){
     quiz_count = 0+50*32;
     let a = quiz_count;
     //const quiz_length 50*34;
     i=34;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section18-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section18-1.html"){
     quiz_count = 0+50*34;
     let a = quiz_count;
     //const quiz_length 50*35;
     i=35;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section18-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section18-2.html"){
     quiz_count = 0+50*35;
     let a = quiz_count;
     //const quiz_length 50*36;
     i=36;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_18.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_18.html"){
     quiz_count = 0+50*34;
     let a = quiz_count;
     //const quiz_length 50*36;
     i=36;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section19-1.html"){
+else if(location.href=="https://todorokitai.github.io/web/section19-1.html"){
     quiz_count = 0+50*36;
     let a = quiz_count;
     //const quiz_length 50*37;
     i=37;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section19-2.html"){
+else if(location.href=="https://todorokitai.github.io/web/section19-2.html"){
     quiz_count = 0+50*37;
     let a = quiz_count;
     //const quiz_length 50*38;
     i=38;
     z = a;
 }
-else if(location.href=="https://todorokitai.github.io/web/English/section_19.html"){
+else if(location.href=="https://todorokitai.github.io/web/section_19.html"){
     quiz_count = 0+50*36;
     let a = quiz_count;
     //const quiz_length 50*38;
